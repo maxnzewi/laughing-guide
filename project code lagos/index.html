@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ZEG Corture</title>
+        
+<!--MAXCDN for bootstrap-->
+        
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="ajax.googleapis.com/ajax/libs/jquery/1.1.2.0/jquerry.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    <!--Offline resources-->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="img/Maxwell_Icon.png">
+    </head>
+    <body>
+        
+        <h1>ZEG Clothes</h1>
+        
+        <section class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="">ZEG</a>
+                </div>
+                <div>
+                <ul class="nav navbar-nav">
+                    <li><a class="active" href=#>Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid text-center" style="background-image: url(img/background%20image.jpg)" id="header">
+            <h2 style="font-family: cursive">ZEG Clothes</h2>
+            <div class="header-text">
+            <p>Shop vintage style dresses both for male and female clothes at affordable prices from our online shop inspired by ideas from talented fashion designers.</p>
+            <p>This is your one stop shop for anything fashion. all you have to do is think it and we already have it waiting for you. Check out our wide variety of collections for designs that will blow your mind.</p>
+            </div>
+            <button class="btn btn-info btn-lg">Shop With Us Today!</button>
+        </section>
+        
+        <section class="container text-center" style="background-image: url(img/background%20image.jpg)" id="gallery">
+            <h2 style="font-family: cursive">Gallery</h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="img/brent-wilson.jpg" class="image-responsive">
+                    <p>Brent Wilson</p>   
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/casual%20slimfit.jpg" class="image-responsive">
+                    <p>Casual Slimfit</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/chromeo%20dave.jpg" class="image-responsive">
+                    <p>Chromeo Dave</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/Collins_Miles_Hoodie_For_Men_15_500x.jpg" class="image-responsive">
+                    <p>Hoodie</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/Cotton%20shirt.jpg" class="image-responsive">
+                    <p>Cotton Shirt</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/denim%20maxi%20dress.jpg" class="image-responsive">
+                    <p>Denim Maxi Dress</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/floral%20print.jpg" class="image-responsive">
+                    <p>Floral Maxi</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/Lookastic.jpg" class="image-responsive">
+                    <p>Lookastic</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/slinky%20back.jpg" class="image-responsive">
+                    <p>Slinky Back</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/teal-velvet-choker-maxi-dress.jpg" class="image-responsive">
+                    <p>Velvet Choker</p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/vintacy.jpg" class="image-responsive">
+                    <p>Vintacy</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid text-center" style="background-image: url(img/background%20image.jpg)" id="price">
+            <h2 style="font-family: cursive">Price</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th>#</th>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Color</th>    
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Brent Wilson</td>
+                        <td>N10,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                    <tr>
+                       <td>2</td>
+                        <td>Casual Slimfit</td>
+                        <td>N15,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                    <tr>
+                        <td>3</td>
+                        <td>Chromeo Dave</td>
+                        <td>N10,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>4</td>
+                        <td>Hoodie</td>
+                        <td>N11,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>5</td>
+                        <td>Cotton Shirt</td>
+                        <td>N12,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>6</td>
+                        <td>Denim Maxi</td>
+                        <td>N15,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>7</td>
+                        <td>Floral Print Maxi</td>
+                        <td>N15,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>8</td>
+                        <td>Lookastic</td>
+                        <td>N20,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>9</td>
+                        <td>Slinky Back</td>
+                        <td>N14,500</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>10</td>
+                        <td>Velvet Choker</td>
+                        <td>N17,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>
+                        
+                      <tr>
+                        <td>11</td>
+                        <td>Vintacy</td>
+                        <td>N16,000</td>
+                        <td><select id="selectnum">
+                            <option value="--">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="others">others</option></select></td>
+                        <td><select id="selectcolor">
+                            <option value="#ff0000">Red</option>
+                            <option value="#ffff00">Yellow</option>
+                            <option value="#0000ff">Blue</option>
+                            <option value="#00ff00">Lime</option>
+                            <option value="#ffffff">White</option>
+                            <option value="#000000">Black</option>
+                            <option value="others">Other</option></select></td>
+                    </tr>    
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section class="container-fluid text-center" style="background-image: url(img/background%20image.jpg) "id="about">
+            <h2 style="font-family: cursive">About ZEG</h2>
+            <div class="about-text">
+            <p>A woman or man's wardrobe is their opportunity to stand out and make a lasting impression. Maxwell's Couture was launched in 2018, it offers a wide rangeof apparel to fit anybody's unique sense of style. Our clothing and accessories are carefully curated to provide our customers the latest fashions.</p>
+            
+            <p>To keep our customers im style, we post new arrivals daily, as well as offer stylists picks to offer any indecisive customer. Maxwell's Couture is a fashionista's place to shop for best wardrobe.</p>
+            
+            <p>Beyond helping you to look your best, we make every purchase a pleasant experience. Our top priority is an excellent customer service, exceptionally quick order processing, hassle free deivery. We value your feedback, whether positive or constructive and we are continously working to improve your experience.</p>
+            </div>
+        </section>
+        
+        <section class="container" style="background-image: url(img/background%20image.jpg)" id="contact">
+             <h2>Please drop your comments below</h2>
+            
+            <form class="form-horizontal text-center" role="form">
+                <div class="form-group">
+                    <label  class="control-label col-sm-2" for="name">Name:</label>
+                    <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+                    </div>    
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">E-mail:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter Valid E-mail">    
+                </div>    
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="comment">Comment:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="msg" placeholder="Enter Comment(s)"></textarea>
+                </div>    
+                </div>
+                
+                <div class="btn btn-md">
+                <button class="btn btn btn-md" style="background-color: goldenrod">Submit</button>
+                </div>    
+            </form>
+        </section>
+        
+         <footer class="container-fuid text-center" id="footer">
+            <a href="http://www.facebook.com/maxwellscouture" target="_blank">
+            <img src="img/facebook%20icon.png" title="Facebook" height="50" width="50"></a>
+            
+            <a href="http://www.twitter.com/maxcouture" target="_blank">
+            <img src="img/twitter%20icon.png" title="Twitter" height="50" width="50"></a>
+            
+            <a href="http://www.instagram.com/maxcouture" target="_blank">
+            <img src="img/instagram%20icon.png" title="Instagram" height="50" width="50"> </a>
+            
+            <a href="http://www.whatsapp.com/xhffdhsuwsvjsshs" target="_blank">
+            <img src="img/whatsapp%20icon.png" title="Whatsapp" height="50" width="50"> </a>
+        <p>&copy 2018 Maxwell's Couture. Developed by Maxxyman</p>
+        </footer>
+    </body>
+</html>
